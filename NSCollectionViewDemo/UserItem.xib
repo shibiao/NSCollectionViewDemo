@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="UserItem" customModule="NSCollectionViewDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="userAvatar" destination="GXY-a7-6JM" id="Gm9-hY-l2a"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="89" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="GXY-a7-6JM">
+                    <rect key="frame" x="0.0" y="0.0" width="89" height="84"/>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="1eL-be-AbU">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="handleUserAvatar:" target="-2" id="YsR-of-pEA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="GXY-a7-6JM" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="KBX-0H-vJO"/>
+                <constraint firstItem="GXY-a7-6JM" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="XrN-fR-D4m"/>
+                <constraint firstAttribute="bottom" secondItem="GXY-a7-6JM" secondAttribute="bottom" id="aFL-ga-UGe"/>
+                <constraint firstAttribute="trailing" secondItem="GXY-a7-6JM" secondAttribute="trailing" id="wQB-mU-FE9"/>
+            </constraints>
+            <point key="canvasLocation" x="-56.5" y="75"/>
+        </customView>
+        <customObject id="iL5-V6-yjS" customClass="UserItem" customModule="NSCollectionViewDemo" customModuleProvider="target"/>
+    </objects>
+</document>
