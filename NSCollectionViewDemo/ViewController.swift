@@ -22,6 +22,7 @@ class ViewController: NSViewController {
         
         layout.itemSize = NSMakeSize(300, 300)
         collectionView.collectionViewLayout = layout
+        
         data = [
             "1",
             "2",

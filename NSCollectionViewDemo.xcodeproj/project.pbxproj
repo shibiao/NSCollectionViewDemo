@@ -13,6 +13,7 @@
 		69A4B9351FE3B94900371C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B9331FE3B94900371C58 /* Main.storyboard */; };
 		69C4EF471FE75A910083E09B /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4EF451FE75A910083E09B /* UserItem.swift */; };
 		69C4EF481FE75A910083E09B /* UserItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C4EF461FE75A910083E09B /* UserItem.xib */; };
+		69C4EF4A1FE7B71B0083E09B /* CustomImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4EF491FE7B71B0083E09B /* CustomImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		69A4B9371FE3B94900371C58 /* NSCollectionViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSCollectionViewDemo.entitlements; sourceTree = "<group>"; };
 		69C4EF451FE75A910083E09B /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 		69C4EF461FE75A910083E09B /* UserItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserItem.xib; sourceTree = "<group>"; };
+		69C4EF491FE7B71B0083E09B /* CustomImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				69A4B92D1FE3B94900371C58 /* AppDelegate.swift */,
 				69A4B92F1FE3B94900371C58 /* ViewController.swift */,
+				69C4EF491FE7B71B0083E09B /* CustomImageButton.swift */,
 				69C4EF451FE75A910083E09B /* UserItem.swift */,
 				69C4EF461FE75A910083E09B /* UserItem.xib */,
 				69A4B9311FE3B94900371C58 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C4EF4A1FE7B71B0083E09B /* CustomImageButton.swift in Sources */,
 				69A4B9301FE3B94900371C58 /* ViewController.swift in Sources */,
 				69A4B92E1FE3B94900371C58 /* AppDelegate.swift in Sources */,
 				69C4EF471FE75A910083E09B /* UserItem.swift in Sources */,

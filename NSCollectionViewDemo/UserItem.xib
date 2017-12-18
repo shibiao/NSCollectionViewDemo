@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="89" height="84"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="GXY-a7-6JM">
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="GXY-a7-6JM" customClass="CustomImageButton" customModule="NSCollectionViewDemo" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="89" height="84"/>
                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="1eL-be-AbU">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
